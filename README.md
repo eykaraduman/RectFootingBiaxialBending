@@ -14,7 +14,7 @@ Bu uygulama verili temel boyutları ve kesit tesirleri için köşe noktalardaki
 
 
 ### Ekran Görüntüsü:
-<img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="600" />
+<img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="400" />
 
 #### Kaynaklar
 - [Özmen, G. (2011). “Determination of base stresses in rectangular footings under biaxial bending.” Teknik Dergi, 22, 5659-5674.](http://www.imo.org.tr/resimler/ekutuphane/pdf/16498_15_12.pdf) 
