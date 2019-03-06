@@ -11,7 +11,7 @@ Bu uygulama verili temel boyutları ve kesit tesirleri için köşe noktalardaki
 <img src="https://eykaraduman.github.io/assets/images/biaxialbend.png" width="500" />
 
 - RectFootingBiaxialBending ile dikdörtgen temelin herhangi bir noktasında zemin gerilme hesaplanabilir.
-- Çeşitli yükleme halleri istenilen kesit yerleri için topluca zemin gerilmeleri bulunabilir.
+- Çeşitli yükleme halleri için istenilen kesit yerlerinde zemin gerilmeleri bulunabilir. Bunun bir örneği olan test.ini dosyasının içeriği aşağıda verilmiştir.
 
 ```ini
 [Boyutlar]
@@ -34,6 +34,72 @@ Ly=6.75
 2=3.52,4.25
 3=2.00,4.25
 4=1.00,4.25
+```
+- Dosyadan hesaplanan gerilmeler ve karakteristik bilgiler  metin dosyası olarak raporlanır.
+```txt
+----------------------------------------------------------------------------------------------------------------
+|Hal Ad                   | Lx (m) | Ly (m) |     N(t)     |    Mx(tm)    |    My(tm)    |    ex    |    ey    |
+----------------------------------------------------------------------------------------------------------------
+|İnşaat Sonu              |  7.02  |  6.75  |   553.0400   |  -203.6700   |   51.5100    |  0.0931  | -0.3683  |
+|İnşaat Sonu Depremli     |  7.02  |  6.75  |   595.7500   |  -729.9400   |   51.5100    |  0.0865  | -1.2252  |
+|İşletme Hali             |  7.02  |  6.75  |   476.8000   |  -282.2000   |   11.0500    |  0.0232  | -0.5919  |
+|İşletme Hali Depremli    |  7.02  |  6.75  |   521.7100   |  -878.7200   |    8.7100    |  0.0167  | -1.6843  |
+|Taşkın Hali              |  7.02  |  6.75  |   420.3000   |  -350.6900   |   -46.6000   | -0.1109  | -0.8344  |
+----------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Hal Ad                   | Basınç Bölge  |    Xn (m)    |    Yn (m)    |    Xq(m)     |    Yp(m)     |   s1(t/m²)   |   s2(t/m²)   |   s3(t/m²)   |   s4(t/m²)   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|İnşaat Sonu              |       C       |    62.04     |    14.51     |    0.0000    |    0.0000    |    8.7797    |    6.9215    |   14.5627    |   16.4209    |
+|İnşaat Sonu Depremli     |       D       |    98.46     |     6.68     |    0.0000    |    6.2052    |    0.0000    |    0.0000    |   25.3563    |   27.3029    |
+|İşletme Hali             |       C       |    273.94    |     9.92     |    0.0000    |    0.0000    |    4.9678    |    4.5692    |   15.1567    |   15.5553    |
+|İşletme Hali Depremli    |       D       |    495.47    |     5.11     |    0.0000    |    5.0357    |    0.0000    |    0.0000    |   29.0960    |   29.5142    |
+|Taşkın Hali              |       C       |    68.02     |     8.36     |    0.0000    |    0.0000    |    1.4508    |    3.1319    |   16.2890    |   14.6079    |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Kesit-1
+------------------------------------------
+|Hal Ad                   |Gerilme (t/m²)|
+------------------------------------------
+|İnşaat Sonu              |    12.13     |
+|İnşaat Sonu Depremli     |    15.56     |
+|İşletme Hali             |    11.32     |
+|İşletme Hali Depremli    |    14.74     |
+|Taşkın Hali              |    11.06     |
+------------------------------------------
+
+Kesit-2
+------------------------------------------
+|Hal Ad                   |Gerilme (t/m²)|
+------------------------------------------
+|İnşaat Sonu              |    12.66     |
+|İnşaat Sonu Depremli     |    16.11     |
+|İşletme Hali             |    11.43     |
+|İşletme Hali Depremli    |    14.86     |
+|Taşkın Hali              |    10.58     |
+------------------------------------------
+
+Kesit-3
+------------------------------------------
+|Hal Ad                   |Gerilme (t/m²)|
+------------------------------------------
+|İnşaat Sonu              |    13.06     |
+|İnşaat Sonu Depremli     |    16.53     |
+|İşletme Hali             |    11.52     |
+|İşletme Hali Depremli    |    14.95     |
+|Taşkın Hali              |    10.21     |
+------------------------------------------
+
+Kesit-4
+------------------------------------------
+|Hal Ad                   |Gerilme (t/m²)|
+------------------------------------------
+|İnşaat Sonu              |    13.33     |
+|İnşaat Sonu Depremli     |    16.81     |
+|İşletme Hali             |    11.58     |
+|İşletme Hali Depremli    |    15.01     |
+|Taşkın Hali              |     9.97     |
+------------------------------------------
 ```
 
 <img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="500" />
