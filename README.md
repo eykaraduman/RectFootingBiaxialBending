@@ -6,16 +6,12 @@ Eğik eğilme etkisi altındaki dikdörtgen tekil temellerde basınç bölgeleri
 - E y yönünde trapez basınç bölgesi
 - B beşgen basınç bölgesi
 
-Bu uygulama verili temel boyutları ve kesit tesirleri için köşe noktalardaki zemin gerilmeleri hesaplamak için geliştirilmiştir. Pozitif momentler şekildeki gibidir.
+Bu uygulama verili temel boyutları ve kesit tesirleri için köşe noktalardaki zemin gerilmelerini hesaplamak için geliştirilmiştir. Pozitif momentler şekildeki gibidir.
 
 <img src="https://eykaraduman.github.io/assets/images/biaxialbend.png" width="500" />
 
-### Özellikleri:
--
--
+- RectFootingBiaxialBending ile dikdörtgen temelin herhangi bir noktasında zemin gerilme hesaplanabilir.
 
-
-### Ekran Görüntüsü:
 <img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="500" />
 
 #### Kaynaklar
