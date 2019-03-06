@@ -6,7 +6,7 @@ Eğik eğilme etkisi altındaki dikdörtgen tekil temellerde basınç bölgeleri
 - E y yönünde trapez basınç bölgesi
 - B beşgen basınç bölgesi
 
-Bu uygulama verili temel boyutları ve kesit tesirleri için köşe noktalardaki zemin gerilmelerini hesaplamak için geliştirilmiştir. [^1] [^2] [^3] Pozitif momentler şekildeki gibidir.
+`RectFootingBiaxialBending` verili temel boyutları ve kesit tesirleri için köşe noktalardaki zemin gerilmelerini hesaplamak için geliştirilmiştir. [^1] [^2] [^3] Pozitif momentler şekildeki gibidir.
 
 <img src="https://eykaraduman.github.io/assets/images/biaxialbend.png" width="500" />
 
@@ -103,7 +103,8 @@ Kesit-4
 |Taşkın Hali              |     9.97     |
 ------------------------------------------
 ```
-- `RectFootingBiaxialBending` uygulaması Python ile geliştirilmiştir.
+- `RectFootingBiaxialBending` uygulaması Python ile geliştirilmiştir. Arayüzünü hazırlamak için PyQt5 kullanılmıştır. PyInstaller ve fbs ile hazırlanan kurulum dosyasını [Release](https://github.com/eykaraduman/RectFootingBiaxialBending/releases) bölümünden indirebilrisiniz.
+
 <img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="500" />
 
 [^1]: [Özmen, G. (2011). “Determination of base stresses in rectangular footings under biaxial bending.” Teknik Dergi, 22, 5659-5674.](http://www.imo.org.tr/resimler/ekutuphane/pdf/16498_15_12.pdf) 
