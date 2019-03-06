@@ -1,4 +1,4 @@
-#### RectFootingBiaxialBending
+### RectFootingBiaxialBending
 Eğik eğilme etkisi altındaki dikdörtgen tekil temellerde taban gerilmelerinin hesabı için tasarlanmıştır.
 
 #### Kaynaklar
