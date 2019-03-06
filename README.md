@@ -10,8 +10,8 @@ Bu uygulama verili temel boyutları ve kesit tesirleri için köşe noktalardaki
 
 <img src="https://eykaraduman.github.io/assets/images/biaxialbend.png" width="500" />
 
-- RectFootingBiaxialBending ile dikdörtgen temelin herhangi bir noktasında zemin gerilme hesaplanabilir.
-- Çeşitli yükleme halleri için istenilen kesit yerlerinde zemin gerilmeleri bulunabilir. Bunun bir örneği olan test.ini dosyasının içeriği aşağıda verilmiştir.
+- RectFootingBiaxialBending ile dikdörtgen temelin herhangi bir noktasında zemin gerilmesi tekil olarak hesaplanabilir.
+- Ayrıca çeşitli yükleme halleri için istenilen kesit yerlerinde zemin gerilmelerini bulmakta mümkündür. Bunun bir örneği olan `test.ini` dosyasının içeriği aşağıda verilmiştir.
 
 ```ini
 [Boyutlar]
@@ -35,7 +35,7 @@ Ly=6.75
 3=2.00,4.25
 4=1.00,4.25
 ```
-- Dosyadan hesaplanan gerilmeler ve karakteristik bilgiler  metin dosyası olarak raporlanır.
+- RectFootingBiaxialBending, dosyadan hesaplanan gerilmeler ve karakteristik bilgiler için hesap dosya ile aynı adlı bir metin dosyası oluşturur. (Örneğin `test.txt`)
 ```txt
 ----------------------------------------------------------------------------------------------------------------
 |Hal Ad                   | Lx (m) | Ly (m) |     N(t)     |    Mx(tm)    |    My(tm)    |    ex    |    ey    |
@@ -101,7 +101,7 @@ Kesit-4
 |Taşkın Hali              |     9.97     |
 ------------------------------------------
 ```
-
+- RectFootingBiaxialBending uygulaması Python ile geliştirilmiştir.
 <img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="500" />
 
 #### Kaynaklar
