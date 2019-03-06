@@ -1,5 +1,10 @@
 ### RectFootingBiaxialBending
-Eğik eğilme etkisi altındaki dikdörtgen tekil temellerde taban gerilmelerinin hesabı için tasarlanmıştır.
+Eğik eğilme etkisi altındaki dikdörtgen tekil temellerde basınç bölgeleri A, B, C, D ve E olmak üzere 5 farklı bölgeye ayrılabilir.
+- C tam başınç bölgesi
+- A üçgen basınç bölgesi
+- D x yönünde trapez basınç bölgesi
+- E y yönünde trapez basınç bölgesi
+- B beşgen basınç bölgesi
 
 #### Kaynaklar
 - [Özmen, G. (2011). “Determination of base stresses in rectangular footings under biaxial bending.” Teknik Dergi, 22, 5659-5674.](http://www.imo.org.tr/resimler/ekutuphane/pdf/16498_15_12.pdf) 
