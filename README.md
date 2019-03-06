@@ -8,13 +8,15 @@ Eğik eğilme etkisi altındaki dikdörtgen tekil temellerde basınç bölgeleri
 
 Bu uygulama verili temel boyutları ve kesit tesirleri için köşe noktalardaki zemin gerilmeleri hesaplamak için geliştirilmiştir. Pozitif momentler şekildeki gibidir.
 
-<img src="https://eykaraduman.github.io/assets/images/biaxialbend.png" width="600" />
+<img src="https://eykaraduman.github.io/assets/images/biaxialbend.png" width="500" />
 
 ### Özellikleri:
+-
+-
 
 
 ### Ekran Görüntüsü:
-<img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="400" />
+<img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="500" />
 
 #### Kaynaklar
 - [Özmen, G. (2011). “Determination of base stresses in rectangular footings under biaxial bending.” Teknik Dergi, 22, 5659-5674.](http://www.imo.org.tr/resimler/ekutuphane/pdf/16498_15_12.pdf) 
