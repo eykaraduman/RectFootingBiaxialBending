@@ -11,6 +11,30 @@ Bu uygulama verili temel boyutları ve kesit tesirleri için köşe noktalardaki
 <img src="https://eykaraduman.github.io/assets/images/biaxialbend.png" width="500" />
 
 - RectFootingBiaxialBending ile dikdörtgen temelin herhangi bir noktasında zemin gerilme hesaplanabilir.
+- Çeşitli yükleme halleri istenilen kesit yerleri için topluca zemin gerilmeleri bulunabilir.
+
+```ini
+[Boyutlar]
+# x yönünde temel genişliği
+Lx=7.02
+# y yönünde temel genişliği
+Ly=6.75
+
+[Yukler]
+# No=Hal Ad, N, Mx, My
+1=İnşaat Sonu,553.04,-203.67,51.51
+2=İnşaat Sonu Depremli,595.75,-729.94,51.51
+3=İşletme Hali,476.80,-282.20,11.05
+4=İşletme Hali Depremli,521.71,-878.72,8.71
+5=Taşkın Hali,420.30,-350.69,-46.60
+
+[Kesitler]
+# Kesit No= x koordinat, y koordinat
+1=5.52,4.25
+2=3.52,4.25
+3=2.00,4.25
+4=1.00,4.25
+```
 
 <img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="500" />
 
