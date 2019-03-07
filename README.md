@@ -106,8 +106,9 @@ Kesit-4
 ------------------------------------------
 ```
 - `RectFootingBiaxialBending` uygulaması Python ile geliştirilmiştir. Arayüzünü hazırlamak için PyQt5 kullanılmıştır. PyInstaller ve fbs ile hazırlanan kurulum dosyasını [Release](https://github.com/eykaraduman/RectFootingBiaxialBending/releases) bölümünden indirebilrisiniz.
-
+<p align="center">
 <img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="500" />
+</p>
 
 [^1]: [Özmen, G. (2011). “Determination of base stresses in rectangular footings under biaxial bending.” Teknik Dergi, 22, 5659-5674.](http://www.imo.org.tr/resimler/ekutuphane/pdf/16498_15_12.pdf) 
 
