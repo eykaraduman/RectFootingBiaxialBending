@@ -36,7 +36,7 @@ Ly=6.75
 3=2.00,4.25
 4=1.00,4.25
 ```
-- `RectFootingBiaxialBending`, *Dosyadan Hesapla* seçeneği seçildiğinde `.ini` dosyası ile aynı adlı bir metin dosyası oluşturur. (Örneğin `test.txt`)
+- `RectFootingBiaxialBending`, **Dosyadan Hesapla** seçeneği seçildiğinde, `.ini` dosyasında tanımlanmış kesit tesirleri ve kesit yerleri için `.txt` uzantılı bir çıktı dosyası oluşturur. (Örneğin `test.txt`)
 ```txt
 (test.txt)
 ----------------------------------------------------------------------------------------------------------------
