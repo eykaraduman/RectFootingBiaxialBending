@@ -105,7 +105,7 @@ Kesit-4
 |Taşkın Hali              |     9.97     |
 ------------------------------------------
 ```
-- `RectFootingBiaxialBending` uygulaması Python ile geliştirilmiştir. Arayüzünü hazırlamak için PyQt5 kullanılmıştır. PyInstaller ve fbs ile hazırlanan kurulum dosyasını [Release](https://github.com/eykaraduman/RectFootingBiaxialBending/releases) bölümünden indirebilrisiniz.
+- `RectFootingBiaxialBending` uygulaması Python ile geliştirilmiştir. Arayüzünü hazırlamak için PyQt5 kullanılmıştır. PyInstaller ve fbs ile hazırlanan kurulum dosyasını [Release](https://github.com/eykaraduman/RectFootingBiaxialBending/releases) bölümünden indirebilirsiniz.
 <p align="center">
 <img src="https://eykaraduman.github.io/assets/images/RectFootApp.png" width="500" />
 </p>
