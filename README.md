@@ -8,7 +8,9 @@ Eğik eğilme etkisi altındaki dikdörtgen tekil temellerde basınç bölgeleri
 
 `RectFootingBiaxialBending` verili temel boyutları ve kesit tesirleri için köşe noktalardaki zemin gerilmelerini hesaplamak için geliştirilmiştir. [^1] [^2] [^3] Pozitif momentler şekildeki gibidir.
 
+<p align="center">
 <img src="https://eykaraduman.github.io/assets/images/biaxialbend.png" width="500" />
+ </p>
 
 - `RectFootingBiaxialBending` ile dikdörtgen temelin herhangi bir noktasında zemin gerilmesi tekil olarak hesaplanabilir.
 - Ayrıca çeşitli yükleme halleri için istenilen kesit yerlerinde zemin gerilmelerini bulmakta mümkündür. Bunun bir örneği olan `test.ini` dosyasının içeriği aşağıda verilmiştir.
