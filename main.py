@@ -13,7 +13,7 @@ class RectFootingApp(QtWidgets.QFrame, Ui_AppFrame):
     def __init__(self):
         QtWidgets.QFrame.__init__(self)
         Ui_AppFrame.__init__(self)
-        self.setFixedSize(QSize(495, 495))
+        self.setFixedSize(QSize(510, 495))
         self.setupUi(self)
         image_profile = QtGui.QImage("images/biaxialbend.png")  # QImage object
         image_profile = image_profile.scaled(350,200,

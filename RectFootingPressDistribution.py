@@ -143,11 +143,11 @@ class RectFootingPressDistribution:
 
     def pentagonal_compression_zone_b_equations(self, variables):
         x, y = variables
-        a1 = 4 * self.lx * (0.5 - self.ex / self.lx)
+        a1 = 4 * self.lx * (0.5 - fabs(self.ex) / self.lx)
         b1 = 1 - pow(1 - self.lx / x, 3) - pow(1 - self.ly / y, 3)
         c1 = 1 - pow(1 - self.lx / x, 4) - pow(1 - self.ly / y, 4) - 4 * pow(1 - self.lx / x, 3) * self.lx / x
         f1 = x - a1 * b1 / c1
-        a2 = 4 * self.ly * (0.5 - self.ey / self.ly)
+        a2 = 4 * self.ly * (0.5 - fabs(self.ey) / self.ly)
         b2 = 1 - pow(1 - self.lx / x, 3) - pow(1 - self.ly / y, 3)
         c2 = 1 - pow(1 - self.lx / x, 4) - pow(1 - self.ly / y, 4) - 4 * pow(1 - self.ly / y, 3) * self.ly / y
         f2 = y - a2 * b2 / c2
